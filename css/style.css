@@ -1,0 +1,56 @@
+header{
+	background: #172527;
+	height: 60px;
+}
+#call{
+	margin-left: 110px;
+}
+.info li, .menu li, #menu-section li{
+	display: inline-block;
+}
+.info{
+	float: right;
+}
+#menu-section{
+	height: 180px;
+}
+.menu{
+	margin-left: 120px;
+	margin-top: -54px;
+	width: 650px;
+	padding: 10px;
+}
+header nav{
+	margin-top: -80px;
+}
+.profile-basket{
+	float: right;
+	margin-top: -54px;
+	margin-right: 70px;
+}
+#demo-section{
+	background-image: url(../img/demo.jpg);
+	height: 450px;
+}
+#menu-section{
+	margin-left: 100px;
+}
+.all-shares{
+	margin-left: 500px;
+}
+#shares{
+	height: 600px;
+}
+#orders{
+	height: 600px;
+}
+h1, h3{
+	color: 	#ffffff;
+}
+.products li{
+	display: inline-block;
+}
+.delivery-info{
+	display: inline-block;
+  width: 360px;
+}
