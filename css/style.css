@@ -5,7 +5,7 @@ header{
 #call{
 	margin-left: 110px;
 }
-.info li, .menu li, #menu-section li{
+.info li, .menu li, #menu-section li, .callme li, .profile-basket li{
 	display: inline-block;
 }
 .info{
