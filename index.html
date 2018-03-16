@@ -7,16 +7,10 @@
 </head>
 <body>
 	<header>
-		<ul class="callme">
-			<li>
-				<a href="#">
-					<img id="call" src="img/call.jpg" alt="call evrasia">
-				</a>
-			</li>
-			<li>
-				<a href="#">Связаться с нами</a>
-			</li>
-		</ul>
+		<div class="callme">
+			<a href="#"><img id="call" src="img/call.jpg" alt="call"></a>
+			<a href="#">Связаться с нами</a>
+		</div>
 		<nav>
 			<ul class="info">
 				<li><a href="#">О компании</a></li>
@@ -29,28 +23,20 @@
 	<main>
 		<section id="top-section">
 			<a href="#"><img src="img/logo.jpg" alt="evrasia logo"></a>
-			<nav>
-				<ul class="menu">
+			<nav class="menu">
+				<ul>
 					<li><a href="#">Меню</a></li>
 					<li><a href="#">Акции</a></li>
 					<li><a href="#">Рестораны</a></li>
 				</ul>
 			</nav>
-			<nav>
-				<ul class="profile-basket">
-					<li>
-						<a href="#">
-							<img src="img/profile.jpg" alt="your profile">
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<p>1</p><!-- здесь выводится количество товаров в корзине  -->
-							<img src="img/basket.jpg" alt="your basket">
-						</a>
-					</li>
-				</ul>
-			</nav>
+			<div>
+				<a href="#"><img src="img/profile.jpg" alt="your profile"></a>
+				<a href="#">
+					<span>1</span>
+					<img src="img/basket.jpg" alt="your basket">
+				</a>
+			</div>
 		</section>
 		<section id="info-slider">
 			<input type="radio" name="point" id="info-radio1">
@@ -63,68 +49,66 @@
 			</div>	
 		</section>
 		<section id="menu-section">
-			<ul>
-				<li>
-					<figure>
-						<a href="#">
-							<img src="img/hot-deserts.jpg" alt="its hot-deserts">
-						</a>
-						<figcaption>
-							<a href="#">Горячие десерты</a>
-						</figcaption>
-					</figure>
-				</li>
-				<li>
-					<figure>
-						<a href="#">
-							<img src="img/hot-food.jpg" alt="its hot-food">
-						</a>
-						<figcaption>
-							<a href="#">Горячие блюда</a>
-						</figcaption>
-					</figure>
-				</li>
-				<li>
-					<figure>
-						<a href="#">
-							<img src="img/rolls-sushi.jpg" alt="its rolls-sushi">
-						</a>
-						<figcaption>
-							<a href="#">Суши и роллы</a>
-						</figcaption>
-					</figure>
-				</li>
-				<li>
-					<figure>
-						<a href="#">
-							<img src="img/soups.jpg" alt="its soups">
-						</a>
-						<figcaption>
-							<a href="#">Супы</a>
-						</figcaption>
-					</figure>
-				</li>
-				<li>
-					<figure>
-						<a href="$">
-							<img src="img/sandwiches-omelets.jpg" alt="its sandwiches-omelets">
-						</a>
-						<figcaption>
-							<a href="#">Сендвичи и омлеты</a>
-						</figcaption>
-					</figure>
-				</li>
-				<li>
-					<figure>
-						<a href="#">
-							<img src="img/all-menu.jpg" alt="its all-menu">
-						</a>
-						<figcaption>
-							<a href="#">Смотреть все меню</a>
-						</figcaption>
-					</figure>
-				</li>
-			</ul>
+			<div>
+				<figure>
+					<a href="#">
+						<img src="img/hot-deserts.jpg" alt="its hot-deserts">
+					</a>
+					<figcaption>
+						<a href="#">Горячие десерты</a>
+					</figcaption>
+				</figure>
+			</div>
+			<div>
+				<figure>
+					<a href="#">
+						<img src="img/hot-food.jpg" alt="its hot-food">
+					</a>
+					<figcaption>
+						<a href="#">Горячие блюда</a>
+					</figcaption>
+				</figure>
+			</div>
+			<div>
+				<figure>
+					<a href="#">
+						<img src="img/rolls-sushi.jpg" alt="its rolls-sushi">
+					</a>
+					<figcaption>
+						<a href="#">Суши и роллы</a>
+					</figcaption>
+				</figure>
+			</div>
+			<div>
+				<figure>
+					<a href="#">
+						<img src="img/soups.jpg" alt="its soups">
+					</a>
+					<figcaption>
+						<a href="#">Супы</a>
+					</figcaption>
+				</figure>
+			</div>
+			<div>
+				<figure>
+					<a href="$">
+						<img src="img/sandwiches-omelets.jpg" alt="its sandwiches-omelets">
+					</a>
+					<figcaption>
+						<a href="#">Сендвичи и омлеты</a>
+					</figcaption>
+				</figure>
+			</div>
+			<div>
+				<figure>
+					<a href="#">
+						<img src="img/all-menu.jpg" alt="its all-menu">
+					</a>
+					<figcaption>
+						<a href="#">Смотреть все меню</a>
+					</figcaption>
+				</figure>
+			</div>
 		</section>
 		<section id="shares-slider">
 			<input type="radio" name="point" id="shares-adio1">
@@ -138,87 +122,53 @@
 			<a href="#" class="standart-button">Все акции</a>
 		</section>
 		<section id="orders">
-			<h3>Заказали сейчас</h3>
-			<ul class="products">
-				<li>
-					<figure>
-						<a href="#">
-							<img src="img/filadelfiya-fruts.jpg" alt="its filadelfiya-fruts">
-						</a>
-						<figcaption class="info-prosuts">
-							<ul>
-								<li><a href="#">Филадельфия фрутс</a></li>
-							<li>500₽</li>
-								<li>
-									<a href="#">
-										<img src="img/add-order.jpg" alt="buy it product">
-									</a>
-								</li>
-							</ul>
-						</figcaption>
-					</figure>	
-				</li>
-				<li>
-					<figure>
-						<a href="#">
-							<img src="img/shimpuru-maki.jpg" alt="its shimpuru-maki">
-						</a>
-						<figcaption class="info-prosuts">
-							<ul>
-								<li><a href="#">Шимпуру маки</a></li>
-								<li>260₽</li>
-								<li>
-									<a href="#">
-										<img src="img/add-order.jpg" alt="buy it product">
-									</a>
-								</li>
-							</ul>
-						</figcaption>
-					</figure>
-				</li>
-				<li>
-					<figure>
-						<a href="#">
-							<img src="img/filadelfiya-lite.jpg" alt="its filadelfiya-lite">
-						</a>
-						<figcaption class="info-prosuts">
-							<ul>
-								<li><a href="#">Филадельфия лайт</a></li>
-								<li>560₽</li>
-								<li>
-									<a href="#">
-										<img src="img/add-order.jpg" alt="buy it product">
-									</a>
-								</li>
-							</ul>
-						</figcaption>
-					</figure>
-				</li>
-				<li>
-					<figure>
-						<a href="#">
-							<img src="img/filadelfiya-kani-tobiko-maki.jpg" alt="its filadelfiya-kani-tobiko-maki">
-						</a>
-						<figcaption class="info-prosuts">
-							<ul>
-								<li><a href="#">Филадельфия Кани тобико маки</a></li>
-								<li>560₽</li>
-								<li>
-									<a href="#">
-										<img src="img/add-order.jpg" alt="buy it product">
-									</a>
-								</li>
-							</ul>
-						</figcaption>
-					</figure>	
-				</li>
-			</ul>
+			<h2>Заказали сейчас</h2>
+			<div>
+				<figure>
+					<a href="#"><img src="img/filadelfiya-fruts.jpg" alt="its filadelfiya-fruts"></a>
+					<figcaption class="info-products">
+						<a href="#">Филадельфия фрутс</a>
+						<span>500₽</span>
+						<a href="#"><img src="img/add-order.jpg" alt="buy it product"></a>						
+					</figcaption>	
+				</figure>
+			</div>
+			<div>
+				<figure>
+					<a href="#"><img src="img/shimpuru-maki.jpg" alt="its shimpuru-maki"></a>
+					<figcaption class="info-products">
+						<a href="#">Шимпуру маки</a>
+						<span>260₽</span>
+						<a href="#"><img src="img/add-order.jpg" alt="buy it product"></a>
+					</figcaption>
+				</figure>
+			</div>
+			<div>
+				<figure>
+					<a href="#"><img src="img/filadelfiya-lite.jpg" alt="its filadelfiya-lite"></a>
+					<figcaption class="info-products">
+						<a href="#">Филадельфия лайт</a>
+						<span>560₽</span>
+						<a href="#"><img src="img/add-order.jpg" alt="buy it product"></a>
+					</figcaption>
+				</figure>
+			</div>
+			<div>
+				<figure>
+					<a href="#"><img src="img/filadelfiya-kani-tobiko-maki.jpg" alt="its filadelfiya-kani-tobiko-maki"></a>
+					<figcaption class="info-products">
+						<a href="#">Филадельфия Кани тобико маки</a>
+						<span>560₽</span>
+						<a href="#"><img src="img/add-order.jpg" alt="buy it product"></a>
+					</figcaption>
+				</figure>	
+			</div>
 		</section>
 		<section id="delivery-review">
 			<div id="delivery">
 				<img src="img/delivery.jpg" alt="delivery logo">
 				<ul class="delivery-info">
-					<li><h2>Сам заберу</h2></li>
+					<li><h3>Сам заберу</h3></li>
 					<li><p>Заберите свои любимые блюда в любом из 300 ресторанов в удобное для вас время</p></li>
 					<li><a href="#" class="standart-button">Выбрать ресторан</a></li>
 				</ul>
@@ -226,7 +176,7 @@
 			<div id="review">
 				<img src="img/review.jpg" alt="review logo">
 				<ul class="review-info">
-					<li><h2>Контроль качества</h2></li>
+					<li><h3>Контроль качества</h3></li>
 					<li><p>Уважаемые гости, мы с благодарностью примем похвалу и конструктивные замечания</p></li>
 					<li><a href="#" class="standart-button">Оставить отзыв</a></li>
 				</ul>
@@ -235,27 +185,11 @@
 	</main>
 	<footer>
 		<section id="social">
-			<ul>
-				<li>
-					<p>©2008-2018 «Евразия Холдинг»</p>
-				</li>
-				<li>
-					<a href="#">
-						<img src="img/vk.jpg" alt="evrasia in vk.ru">
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<img src="img/ig.jpg" alt="evrasia in instagramm.com">
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<img src="img/fb.jpg" alt="evrasia in facebook.com">
-					</a>
-				</li>
-				<li>#СделаноAnmedio</li>
-			</ul>
+			<span>©2008-2018 «Евразия Холдинг»</span>
+			<a href="#" target="_blank" rel="nofollow"><img src="img/vk.jpg" alt="evrasia in vk.ru"></a>
+			<a href="#" target="_blank" rel="nofollow"><img src="img/ig.jpg" alt="evrasia in instagramm.com"></a>
+			<a href="#" target="_blank" rel="nofollow"><img src="img/fb.jpg" alt="evrasia in facebook.com"></a>
+			<a href="http://anmedio.ru/" target="_blank" rel="nofollow"><img src="img/copyright.jpg" class="copyright" alt="ANMEDIO logo"></a>
 		</section>
 		<section id="footer-menu">
 			<ul>
@@ -264,25 +198,19 @@
 	 			<li><a href="#">Рестораны</a></li>
 			</ul>
 		</section>
-		<section id="footer-delivery">
+		<section id="footer-info">
 			<ul>
 				<li><a href="#">Сам заберу</a></li>
 				<li><a href="#">Контроль качества</a></li>
 	 			<li><a href="#">Программа бонусов</a></li>
-			</ul>
-		</section>
-		<section id="footer-review">
-			<ul>
 				<li><a href="#">О компании</a></li>
 				<li><a href="#">Новости</a></li>
 	 			<li><a href="#">Контакты</a></li>
 			</ul>
 		</section>
 		<section id="call-order">
-			<ul>
-				<li><p>8 (969) 558-25-44</p></li>
-				<li><a href="#" class="call-order-button">Заказать звонок</a></li>	
-			</ul>
+			<a href="tel:89695582544">8 (969) 558-25-44</a>
+			<a href="#" class="call-order-button">Заказать звонок</a>	
 		</section>
 	</footer>
 </body>
